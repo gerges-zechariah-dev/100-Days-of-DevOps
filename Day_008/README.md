@@ -1,4 +1,4 @@
-# Day 08: Install Ansible 
+# Day 008: Install Ansible 
 
 ### The Task
 The Nautilus team decided to start testing with **Ansible** for automation and configuration management. The goal was to install **ansible version 4.8.0** on the Jump host using **pip3**.
@@ -17,3 +17,4 @@ The Nautilus team decided to start testing with **Ansible** for automation and c
 ```bash
 sudo pip3 install ansible==4.8.0
 ansible --version
+```
