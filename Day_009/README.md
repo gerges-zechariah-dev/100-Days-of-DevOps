@@ -16,7 +16,7 @@ Found in `/var/log/mariadb/mariadb.log`:
 The runtime directory `/run/mariadb` had incorrect ownership (root), preventing the `mysql` user from creating the mandatory PID file.
 
 ### Solution Commands
-The solution is change ownership of the /run/mariadb directory from root to mysql.
+The solution is change ownership of the `/run/mariadb` directory from `root` to `mysql`.
 ```bash
 sudo chown -R mysql:mysql /run/mariadb
 sudo systemctl start mariadb
